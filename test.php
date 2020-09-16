@@ -1,7 +1,10 @@
 <?php
-$localtime = localtime();
-$localtime_assoc = localtime(time(), true);
-print_r($localtime);
-print_r($localtime_assoc);
+$hoy = getdate();
+$hora=$hoy["hours"];
+$minutos = $hoy["minutes"];
+print_r($hora);
+print_r(":");
+print_r($minutos);
 ?>
+
 
