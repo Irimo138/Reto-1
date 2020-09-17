@@ -1,0 +1,20 @@
+*{
+	text-align: justify;
+}
+#paragraf{
+	margin-left: 30px;
+	background-color: cyan;
+	height: 350px;
+	width: 400px;
+	border-style: solid;
+	border-color: black;
+}
+#descripcion{
+	margin-left: 30px;
+	margin-top: 25px;
+	border-style: solid;
+	border-color: black;
+	background-color: red;
+	height: 75px;
+	width: 400px;
+}
