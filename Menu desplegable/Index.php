@@ -5,7 +5,8 @@
         <link rel="stylesheet" type="text/css" href="IndexCSS.css">
     </head>
     <body>
-        <div id="header">
+       <img src="img/encabezado.jpg" alt="" id="encabezado">
+        <nav id="header">
             <ul class="nav">
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Personajes</a>
@@ -50,7 +51,19 @@
                         <li><a href="">Figuras</a></li>
                     </ul>
                 </li>
+                <li id="hora">
+                   <?php
+                    $hoy = getdate();
+                    $hora=$hoy["hours"];
+                    $minutos = $hoy["minutes"];
+                    print_r($hora);
+                    print_r(":");
+                    print_r($minutos);
+                    header("refresh:60;");
+                    ?>
+                </li>
+              
             </ul>
-        </div>
+        </nav>
     </body>
 </html>
