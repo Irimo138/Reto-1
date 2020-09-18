@@ -44,6 +44,8 @@ footer{
 	background-color: red;
 	border-style: solid;
 	border-color: black;
+	height: 80px;
+	width: 80px;
 }
 
 .Nota{

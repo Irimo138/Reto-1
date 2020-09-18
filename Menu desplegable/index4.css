@@ -1,0 +1,27 @@
+body{background-color:#F9C9E0;
+}
+
+a{text-decoration: none;
+}
+
+h1{
+	text-align: center;
+}
+
+section{margin-left: 1vw;
+width: 90vw;
+font-size:1.3vw;
+}
+
+article{border:solid blue 0.3vh;
+border-radius: 2vh;
+background-color: lightblue;
+margin-top: 1.5vh;
+margin-left: 2vw;
+padding: 1vh;
+width: 16vw;
+float: left;}
+
+footer{margin-top: 75vh;}
+
+
