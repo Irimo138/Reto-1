@@ -1,12 +1,13 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">  
-        <link rel="stylesheet" type="text/css" href="IndexCSS.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
         
     </head>
     <body>
-       <img src="img/encabezado.jpg" alt="" id="encabezado">
+       <img src="img/banner.jpg" alt="" id="encabezado">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
@@ -55,7 +56,7 @@
                     </ul>
                 </li>
                 <li id="hora">
-                   <?php
+                    <?php
                     $hoy = getdate();
                     $hora=$hoy["hours"];
                     $minutos = $hoy["minutes"];
@@ -89,5 +90,8 @@
                 </p>
             </article>
         </main>
+        <footer>
+            <p>Copyright &copy; 2020 Urbil Melín and Unai Iriarte</p>
+        </footer>
     </body>
 </html>
