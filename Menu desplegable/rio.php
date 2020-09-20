@@ -15,8 +15,8 @@
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Personajes</a>
                     <ul>
-                        <li><a href="profesor.php">Profesor</a></li>
-                        <li><a href="tokio.php">Tokio</a></li>
+                        <li><a href="">Profesor</a></li>
+                        <li><a href="">Tokio</a></li>
                         <li><a href="rio.php">Rio</a></li>
                         <li><a href="">Denver</a>
                         <li><a href="">Berlín</a>
@@ -30,6 +30,7 @@
                         <li><a href="">Marsella</a>
                         <li><a href="">Palermo</a>
                         <li><a href="">Bogotá</a>
+                        <li><a href="">BOGDAN</a>
                         </li>
                     </ul>
                 </li>
@@ -80,14 +81,12 @@
             </ul>
         </nav>
         <main>
+           <img src="img/rio_miguel_herran_la_casa_de_papel_sufre_accidente_en_moto_heridas_crop1595424184029.jpg_1902800913.jpg" alt="" id="img2">
             <article>
-               <img src="img/1366_2000.jpeg" alt="" id="img1">
                 <p class="argumento">
-                    La Casa de Papel narra lo que se espera que sea el atraco perfecto al Museo de la Fábrica Nacional de Moneda y Timbre. La mente que idea este plan es El Profesor, un hombre que recluta a siete personas para llevar a cabo el gran golpe. Tokio es una joven atracadora muy buscada por la policía, Berlín asume el papel de "el cabecilla", Moscú es el experto en perforaciones, Río es "el informático", Nairobi es la falsificadora, Denver es el hijo de Moscú y, como siempre, falta la fuerza bruta: Helsinki y Oslo.
+                   Río es un experto en tecnología, de gran corazón. El amor está primero en su vida. Es leal, tranquilo, soñador, alegre y sumiso. Es usualmente referido como "el eslabón débil".
                 </p>
-                <p class="argumento">
-                    La banda planea cada paso durante cinco meses, valoran todos los inconvenientes, todas las posibilidades y cuando llega el día, se encierran durante once días en la Fábrica Nacional de Moneda y Timbre con 67 rehenes. Su objetivo es salir de allí con su propio dinero de curso legal recién impreso y sin registrar, algo que será difícil ya que la policía ha sitiado el lugar. Tendrán que hacer todo el atraco con una condición: nada de relaciones entre los atracadores, algo que no llevan a rajatabla.
-                </p>
+               
             </article>
         </main>
         <footer>

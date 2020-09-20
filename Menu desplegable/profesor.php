@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,7 +11,7 @@
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
+                <li><a href="..">Inicio</a></li>
                 <li><a href="">Personajes</a>
                     <ul>
                         <li><a href="profesor.php">Profesor</a></li>
@@ -30,6 +29,7 @@
                         <li><a href="">Marsella</a>
                         <li><a href="">Palermo</a>
                         <li><a href="">Bogotá</a>
+                        <li><a href="">BOGDAN</a>
                         </li>
                     </ul>
                 </li>
@@ -80,14 +80,12 @@
             </ul>
         </nav>
         <main>
+           <img src="img/profesor.jpg" alt="" id="img2">
             <article>
-               <img src="img/1366_2000.jpeg" alt="" id="img1">
                 <p class="argumento">
-                    La Casa de Papel narra lo que se espera que sea el atraco perfecto al Museo de la Fábrica Nacional de Moneda y Timbre. La mente que idea este plan es El Profesor, un hombre que recluta a siete personas para llevar a cabo el gran golpe. Tokio es una joven atracadora muy buscada por la policía, Berlín asume el papel de "el cabecilla", Moscú es el experto en perforaciones, Río es "el informático", Nairobi es la falsificadora, Denver es el hijo de Moscú y, como siempre, falta la fuerza bruta: Helsinki y Oslo.
+                Sergio Marquina, alias El Profesor, es un personaje de La casa de papel. Es el líder de la banda de atracadores a la Fábrica Nacional de Moneda y Timbre. Es un hombre del que poco se sabe y al que le gusta tener calculado hasta el más mínimo detalle.
                 </p>
-                <p class="argumento">
-                    La banda planea cada paso durante cinco meses, valoran todos los inconvenientes, todas las posibilidades y cuando llega el día, se encierran durante once días en la Fábrica Nacional de Moneda y Timbre con 67 rehenes. Su objetivo es salir de allí con su propio dinero de curso legal recién impreso y sin registrar, algo que será difícil ya que la policía ha sitiado el lugar. Tendrán que hacer todo el atraco con una condición: nada de relaciones entre los atracadores, algo que no llevan a rajatabla.
-                </p>
+               
             </article>
         </main>
         <footer>
