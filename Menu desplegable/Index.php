@@ -7,7 +7,7 @@
         
     </head>
     <body>
-       <img src="img/banner.jpg" alt="" id="encabezado">
+       <img src="img/encabezado.jpg" alt="" id="encabezado">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">

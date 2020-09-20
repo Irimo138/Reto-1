@@ -67,8 +67,12 @@
     }
 
     article{
+        display: block;
+        height: 53vh;
         margin: auto;
         max-width: 60%;
+        background-color: #C36565;
+       
     }
     footer{
         display: block;
