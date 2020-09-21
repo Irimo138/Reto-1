@@ -43,7 +43,7 @@
                 </li>
                 <li><a href="#">Merchandising</a>
                     <ul>
-                        <li><a href="ropa.php">Ropa</a>
+                        <li><a href="#">Ropa</a>
                             <ul>
                                 <li><a href="camisetas.php">Camisetas</a></li>
                                 <li><a href="sudaderas.php">Sudaderas</a></li>
@@ -78,7 +78,7 @@
               
             </ul>
         </nav>
-        <main>
+        <main id="mainhelsinki">
            <img src="img/helsinki.jpg" alt="" id="img2">
             <article>
                 <p class="argumento">

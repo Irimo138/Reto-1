@@ -11,8 +11,8 @@
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Personajes</a>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#">Personajes</a>
                     <ul>
                         <li><a href="profesor.php">Profesor</a></li>
                         <li><a href="tokio.php">Tokio</a></li>
@@ -43,7 +43,7 @@
                 </li>
                 <li><a href="#">Merchandising</a>
                     <ul>
-                        <li><a href="ropa.php">Ropa</a>
+                        <li><a href="#">Ropa</a>
                             <ul>
                                 <li><a href="camisetas.php">Camisetas</a></li>
                                 <li><a href="sudaderas.php">Sudaderas</a></li>
@@ -80,7 +80,7 @@
         </nav>
         <main>
             <article id="articuloprincipal">
-             <video src="Videos/Trailers/La%20casa%20de%20papel%20Parte%204%20Tr%C3%A1iler%20oficial%20Netflix.mp4" class="video"></video>
+            
                 <p class="argumento" >
                    La banda tiene que enfrentarse al hecho de que Nairobi recibiese un disparo, cayendo así en la trampa de la Inspectora Sierra. Todo irá a peor cuando Palermo ayuda al guarda de seguridad Gandia a escapar, el mismo que tiene algo claro: acabar con todos ellos.
 
@@ -88,7 +88,7 @@ El Profesor lo está pasando mal por la supuesta muerte de Lisboa, pero intentar
 
 El Profesor descubre que Lisboa no está muerta y con la ayuda de la banda consigue meterla de nuevo en el Banco de España. Pero lo peor está por llegar. La banda no está preparada para afrontar la muerte de uno de sus miembros.
                 </p>
-              
+               <video src="Videos/Trailers/La%20casa%20de%20papel%20Parte%204%20Tr%C3%A1iler%20oficial%20Netflix.mp4" class="video"></video>
             </article>
         </main>
         <footer>

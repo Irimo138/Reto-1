@@ -2,7 +2,10 @@
     margin:0px;
     padding:0px;
     }
-    
+body{
+    background-image: url(img/fondo.jpg);
+
+}
     #encabezado{
     height: 30vh;
     width: 100%;
@@ -108,12 +111,20 @@
     height: 40vh;
     
     }
+#imgprofesor{
+    height:40vh;
+}
 
 .clearfix{
     overflow:auto;
     float:none;
 }
 
+p{
+    text-align: justify;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
     footer{
         float:none;
         display: block;
@@ -122,4 +133,62 @@
         background-color: #900000;
         color:white;
     }
-    
+#mainprofesor{
+    display:block;
+    height: 52em;
+}
+#maintokio{
+    display:block;
+        height: 33em;
+}
+#mainrio{
+    display:block;
+    height: 33em;
+}
+#maindenver{
+    display:block;
+    height: 33em;
+}
+#mainberlin{
+    display:block;
+    height: 33em;
+}
+#mainmosku{
+    display:block;
+    height: 33em;
+}
+#mainnairobi{
+    display:block;
+    height: 33em;
+}
+#mainoslo{
+    display:block;
+    height: 33em;
+}
+#mainhelsinki{
+    display:block;
+height: 33em;
+}
+#mainlisboa{
+    display:block;
+    height: 33em;
+}
+#mainestocolmo{
+    display:block;
+    height: 33em;
+}
+#mainmanila{
+    display:block;
+    height: 33em;
+}
+#mainmarsella{
+    display: block;
+    height: 33em;}
+#mainparlemo{
+    display:block;
+    height: 33em;
+}
+#mainbogota{
+    display:block;
+    height: 33em;
+}

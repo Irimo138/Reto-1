@@ -11,8 +11,8 @@
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Personajes</a>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#">Personajes</a>
                     <ul>
                         <li><a href="profesor.php">Profesor</a></li>
                         <li><a href="tokio.php">Tokio</a></li>
@@ -43,7 +43,7 @@
                 </li>
                 <li><a href="#">Merchandising</a>
                     <ul>
-                        <li><a href="ropa.php">Ropa</a>
+                        <li><a href="#">Ropa</a>
                             <ul>
                                 <li><a href="camisetas.php">Camisetas</a></li>
                                 <li><a href="sudaderas.php">Sudaderas</a></li>
@@ -80,11 +80,11 @@
         </nav>
         <main>
             <article id="articuloprincipal">
-               <video src="Videos/Trailers/La%20casa%20de%20papel%20Temporada%201%20TRAILER%20Netflix.mp4" controls=true class="video"></video>
+              
                 <p class="argumento" >
                     La Casa de Papel narra lo que se espera que sea el atraco perfecto al Museo de la Fábrica Nacional de Moneda y Timbre. La mente que idea este plan es El Profesor, un hombre que recluta a siete personas para llevar a cabo el gran golpe. Tokio es una joven atracadora muy buscada por la policía, Berlín asume el papel de "el cabecilla", Moscú es el experto en perforaciones, Río es "el informático", Nairobi es la falsificadora, Denver es el hijo de Moscú y, como siempre, falta la fuerza bruta: Helsinki y Oslo.
                 </p>
-                
+                 <video src="Videos/Trailers/La%20casa%20de%20papel%20Temporada%201%20TRAILER%20Netflix.mp4" controls=true class="video"></video>
             </article>
         </main>
         <footer>

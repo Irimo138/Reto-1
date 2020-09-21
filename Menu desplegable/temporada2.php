@@ -11,7 +11,7 @@
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                 <li><a href="">Personajes</a>
                     <ul>
                         <li><a href="profesor.php">Profesor</a></li>
@@ -42,7 +42,7 @@
                 </li>
                 <li><a href="#">Merchandising</a>
                     <ul>
-                        <li><a href="ropa.php">Ropa</a>
+                        <li><a href="#">Ropa</a>
                             <ul>
                                 <li><a href="camisetas.php">Camisetas</a></li>
                                 <li><a href="sudaderas.php">Sudaderas</a></li>
@@ -79,13 +79,13 @@
         </nav>
         <main>
             <article id="articuloprincipal">
-               <video src="Videos/Trailers/LA%20CASA%20DE%20PAPEL%20Temporada%202%20Tr%C3%A1iler%20Espa%C3%B1ol%20Netflix%20(2018).mp4" controls=true class="video"></video>
+               
                 <p class="argumento" >
                    En la segunda temporada de La casa de papel se desarrolla el desenlace del robo. El grupo de atracadores mantiene su plan de encierro con la intención de fabricar el dinero que pretenden robar. ¿Se hará realidad el robo más grande de la historia o se quedará todo en un sueño? 
 
 El Profesor sigue coordinando la operación desde fuera y debe tomar medidas extremas para que el grupo siga el plan rigurosamente.
                 </p>
-                
+                <video src="Videos/Trailers/LA%20CASA%20DE%20PAPEL%20Temporada%202%20Tr%C3%A1iler%20Espa%C3%B1ol%20Netflix%20(2018).mp4" controls=true class="video"></video>
             </article>
         </main>
         <footer>

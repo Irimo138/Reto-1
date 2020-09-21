@@ -11,8 +11,8 @@
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Personajes</a>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#">Personajes</a>
                     <ul>
                         <li><a href="profesor.php">Profesor</a></li>
                         <li><a href="tokio.php">Tokio</a></li>
@@ -42,7 +42,7 @@
                 </li>
                 <li><a href="#">Merchandising</a>
                     <ul>
-                        <li><a href="ropa.php">Ropa</a>
+                        <li><a href="#">Ropa</a>
                             <ul>
                                 <li><a href="camisetas.php">Camisetas</a></li>
                                 <li><a href="sudaderas.php">Sudaderas</a></li>
@@ -79,13 +79,13 @@
         </nav>
         <main>
             <article id="articuloprincipal">
-              <video src="Videos/Trailers/LA%20CASA%20DE%20PAPEL%20Temporada%203%20Tr%C3%A1iler%20Espa%C3%B1ol%20(Nuevo,%202019).mp4" controls=true class="video"></video>
+             
                 <p class="argumento" >
                    El atraco llevado a cabo por los protagonistas, en la tercera temporada vemos sus nuevas vidas tras uno de los mayores golpes de la historia. 
 
 El Profesor, Denver, Tokio, Río, Nairobi, Helsinki, la inspectora Murillo y Mónica Gaztambide están en distintas partes del mundo y parecen vivir el momento de sus vidas, aunque todo cambiará cuando soldados de diversas fuerzas intentan capturarlos, poniendo la supervivencia de la pandilla en una fina línea.
                 </p>
-                
+                 <video src="Videos/Trailers/LA%20CASA%20DE%20PAPEL%20Temporada%203%20Tr%C3%A1iler%20Espa%C3%B1ol%20(Nuevo,%202019).mp4" controls=true class="video"></video>
             </article>
         </main>
         <footer>

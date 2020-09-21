@@ -11,8 +11,8 @@
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Personajes</a>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="#">Personajes</a>
                     <ul>
                         <li><a href="profesor.php">Profesor</a></li>
                         <li><a href="tokio.php">Tokio</a></li>
@@ -43,7 +43,7 @@
                 </li>
                 <li><a href="#">Merchandising</a>
                     <ul>
-                        <li><a href="ropa.php">Ropa</a>
+                       <li><a href="#">Ropa</a>
                             <ul>
                                 <li><a href="camisetas.php">Camisetas</a></li>
                                 <li><a href="sudaderas.php">Sudaderas</a></li>
@@ -78,7 +78,7 @@
               
             </ul>
         </nav>
-        <main>
+        <main id="mainprofesor">
            <img src="img/profesor.jpg" alt="" id="imgprofesor">
             <article id="articuloprofesor">
                 <p class="argumento">

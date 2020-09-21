@@ -39,12 +39,12 @@
                         <li><a href="temporada2.php">Temporada 2</a></li>
                         <li><a href="temporada3.php">Temporada 3</a></li>
                         <li><a href="temporada4.php">Temporada 4</a></li>
-                        <li><a href="temporada5.php">Temporada 5</a></li>
+                        
                     </ul>
                 </li>
                 <li><a href="#">Merchandising</a>
                     <ul>
-                        <li><a href="ropa.php">Ropa</a>
+                     <li><a href="#">Ropa</a>
                             <ul>
                                 <li><a href="camisetas.php">Camisetas</a></li>
                                 <li><a href="sudaderas.php">Sudaderas</a></li>
