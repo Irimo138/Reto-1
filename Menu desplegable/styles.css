@@ -86,25 +86,33 @@
         margin: auto;
         max-width: 60%;
         background-color: #C36565;
+        float: none;
     }
 #articuloprincipal{
      display: block;
        margin: auto;
-        height: 650px;
+        height: 750px;
         margin: auto;
         max-width: 60%;
         background-color: #C36565;
     float:none;
 }
 
-    #img1{
+
+#img1{
     margin:auto;
     width: 100%;
     }
-    #articuloprofesor{
+
+#articuloprofesor{
     height: 40vh;
     
     }
+
+.clearfix{
+    overflow:auto;
+    float:none;
+}
 
     footer{
         float:none;
