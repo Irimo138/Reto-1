@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">  
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        
-    </head>
-    <body>
-       <img src="img/encabezado.jpg" alt="" id="encabezado">
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Temporadas LCDP</title>
+</head>
+
+<body>
+     <img src="img/encabezado.jpg" alt="" id="encabezado">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
-     <nav id="header">
+            <nav id="header">
             <ul class="nav">
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="">Personajes</a>
@@ -78,17 +80,17 @@
               
             </ul>
         </nav>
-        <main>
-           <img src="img/moscu%20(1).jpg" alt="" id="img2">
-            <article>
-                <p class="argumento">
-            Minero. La silicosis y el asma lo alejaron de la mina y terminó en una cerrajería. Es capaz de hacer cualquier cosa con metal y, por supuesto, abre cualquier cerradura. Esa habilidad y una etapa de precariedad económica le llevaron al crimen. En los últimos años ha sido condenado por atracos, estafa, robo de varias joyerías y su gran especialidad: Agujerear cajas acorazadas. Su debilidad es su hijo, Denver; cabeza loca del que nunca ha hecho carrera, y con el que ahora comparte misión y banda en la Fábrica de Moneda.
-                </p>
-               
-            </article>
-        </main>
-        <footer>
-            <p>Copyright &copy; 2020 Urbil Melín and Unai Iriarte</p>
-        </footer>
-    </body>
+  
+        <h1>Temporada 1</h1>
+        <h1>Temporada 2</h1>
+        <h1>Temporada 3</h1>
+        <h1>Temporada 4</h1>
+ 
+    
+
+    <div id="Trailer"></div>
+    <footer>
+        <h3>Copyright &copy; 2017</h3>
+    </footer>
+</body>
 </html>

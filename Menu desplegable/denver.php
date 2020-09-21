@@ -12,7 +12,7 @@
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
-                <li><a href="">Inicio</a></li>
+                <li><a href="Index.php">Inicio</a></li>
                 <li><a href="">Personajes</a>
                     <ul>
                         <li><a href="profesor.php">Profesor</a></li>
