@@ -7,7 +7,7 @@
         
     </head>
     <body>
-       <img src="img/banner.jpg" alt="" id="encabezado">
+       <img src="img/encabezado.jpg" alt="" id="encabezado">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
@@ -15,9 +15,9 @@
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Personajes</a>
                     <ul>
-                        <li><a href="">Profesor</a></li>
-                        <li><a href="">Tokio</a></li>
-                        <li><a href="">Rio</a></li>
+                        <li><a href="profesor.php">Profesor</a></li>
+                        <li><a href="tokio.php">Tokio</a></li>
+                        <li><a href="rio.php">Rio</a></li>
                         <li><a href="">Denver</a>
                         <li><a href="">Berlín</a>
                         <li><a href="">Moscu</a>
@@ -71,8 +71,7 @@
                     print_r("-");
                     print_r($mes);
                     print_r("-");
-                    print_r($año);
-                    
+                    print_r($año); 
                     header("refresh:60;");
                     ?>
                 </li>
@@ -82,6 +81,7 @@
         </nav>
         <main>
             <article>
+               <img src="img/1366_2000.jpeg" alt="" id="img1">
                 <p class="argumento">
                     La Casa de Papel narra lo que se espera que sea el atraco perfecto al Museo de la Fábrica Nacional de Moneda y Timbre. La mente que idea este plan es El Profesor, un hombre que recluta a siete personas para llevar a cabo el gran golpe. Tokio es una joven atracadora muy buscada por la policía, Berlín asume el papel de "el cabecilla", Moscú es el experto en perforaciones, Río es "el informático", Nairobi es la falsificadora, Denver es el hijo de Moscú y, como siempre, falta la fuerza bruta: Helsinki y Oslo.
                 </p>
