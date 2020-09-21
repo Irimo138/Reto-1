@@ -29,7 +29,6 @@
                         <li><a href="">Marsella</a>
                         <li><a href="">Palermo</a>
                         <li><a href="">Bogotá</a>
-                        <li><a href="">BOGDAN</a>
                         </li>
                     </ul>
                 </li>
@@ -80,8 +79,8 @@
             </ul>
         </nav>
         <main>
-           <img src="img/profesor.jpg" alt="" id="img2">
-            <article>
+           <img src="img/profesor.jpg" alt="" id="imgprofesor">
+            <article id="articuloprofesor">
                 <p class="argumento">
                 Sergio Marquina, alias El Profesor, es un personaje de La casa de papel. Es el líder de la banda de atracadores a la Fábrica Nacional de Moneda y Timbre. Es un hombre del que poco se sabe y al que le gusta tener calculado hasta el más mínimo detalle.
                 </p>

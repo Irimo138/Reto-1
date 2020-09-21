@@ -80,9 +80,9 @@
             </ul>
         </nav>
         <main>
-            <article>
+            <article id="articuloprincipal">
                <img src="img/1366_2000.jpeg" alt="" id="img1">
-                <p class="argumento">
+                <p class="argumento" >
                     La Casa de Papel narra lo que se espera que sea el atraco perfecto al Museo de la Fábrica Nacional de Moneda y Timbre. La mente que idea este plan es El Profesor, un hombre que recluta a siete personas para llevar a cabo el gran golpe. Tokio es una joven atracadora muy buscada por la policía, Berlín asume el papel de "el cabecilla", Moscú es el experto en perforaciones, Río es "el informático", Nairobi es la falsificadora, Denver es el hijo de Moscú y, como siempre, falta la fuerza bruta: Helsinki y Oslo.
                 </p>
                 <p class="argumento">
