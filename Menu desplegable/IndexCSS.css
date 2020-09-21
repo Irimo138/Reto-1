@@ -1,69 +1,81 @@
+* {
+    margin:0px;
+    padding:0px;
+    }
+    
+    #encabezado{
+    height: 30vh;
+    width: 100%;
+    }
 
-            
-            * {
-                margin:0px;
-                padding:0px;
-            }
-            #encabezado{
-            height: 30vh;
-            width: 100%;
-            }
-            #header {
+    #header {
+    margin:auto;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    nav{
+    width:100%;
+    height: 7vh;
+    background-color: #900000;
+    }
                 
-                margin:auto;
-                width:100%;
-                font-family:Arial, Helvetica, sans-serif;
-            }
-            nav{
-            width:100%;
-            height: 7vh;
-            background-color: #900000;
-            }
-            
-            ul, ol {
-                list-style:none;
-            }
-            
-            .nav > li {
-                float:left;
+    ul, ol {
+    list-style:none;
+    }
                 
-                                
+    .nav > li {
+    float:left;
+    }
+                
+    .nav li a {
+    background-color:#900000;
+    color:#fff;
+    text-decoration:none;
+    padding:1.5vh 1vw;  
+    display:block;
+    }
+    
+    #hora{
+    background-color:#900000;
+    color:#fff;
+    padding:1.5vh 1vw;
+    display:block;
+    }
+                
+    .nav li a:hover {
+    background-color:#BB0000;
+    }
+                
+    .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    }
+                
+    .nav li:hover > ul {
+    display:block;
+    }
+                
+    .nav li ul li {
+    position:relative;
+    }
+                
+    .nav li ul li ul {
+    right:-140px;
+    top:0vh;
+    }
 
-            }
-            
-            .nav li a {
-                background-color:#900000;
-                color:#fff;
-                text-decoration:none;
-                padding:1.5vh 1vw;  
-                display:block;
-            }
-#hora{
-      background-color:#900000;
-                color:#fff;
-                padding:1.5vh 1vw;
-                display:block;
-}
-            
-            .nav li a:hover {
-                background-color:#BB0000;
-            }
-            
-            .nav li ul {
-                display:none;
-                position:absolute;
-                min-width:140px;
-            }
-            
-            .nav li:hover > ul {
-                display:block;
-            }
-            
-            .nav li ul li {
-               position:relative;
-            }
-            
-            .nav li ul li ul {
-               right:-140px;
-                top:30vh;
-            }
+    article{
+        margin: auto;
+        max-width: 60%;
+    }
+    footer{
+        display: block;
+     
+        width:100%;
+        height: 10vh;
+        background-color: #900000;
+        color:white;
+    }
+    

@@ -1,11 +1,15 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">  
-        <link rel="stylesheet" type="text/css" href="IndexCSS.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        
     </head>
     <body>
-       <img src="img/encabezado.jpg" alt="" id="encabezado">
+       <img src="img/banner.jpg" alt="" id="encabezado">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <style> .argumento{font-family: 'Roboto', sans-serif;}</style>
         <nav id="header">
             <ul class="nav">
                 <li><a href="">Inicio</a></li>
@@ -52,18 +56,42 @@
                     </ul>
                 </li>
                 <li id="hora">
-                   <?php
+                    <?php
                     $hoy = getdate();
                     $hora=$hoy["hours"];
                     $minutos = $hoy["minutes"];
+                    $dia = $hoy["mday"];
+                    $mes = $hoy["mon"];
+                    $año = $hoy["year"];
                     print_r($hora);
                     print_r(":");
                     print_r($minutos);
+                    print_r(" ");
+                    print_r($dia);
+                    print_r("-");
+                    print_r($mes);
+                    print_r("-");
+                    print_r($año);
+                    
                     header("refresh:60;");
                     ?>
                 </li>
+                
               
             </ul>
         </nav>
+        <main>
+            <article>
+                <p class="argumento">
+                    La Casa de Papel narra lo que se espera que sea el atraco perfecto al Museo de la Fábrica Nacional de Moneda y Timbre. La mente que idea este plan es El Profesor, un hombre que recluta a siete personas para llevar a cabo el gran golpe. Tokio es una joven atracadora muy buscada por la policía, Berlín asume el papel de "el cabecilla", Moscú es el experto en perforaciones, Río es "el informático", Nairobi es la falsificadora, Denver es el hijo de Moscú y, como siempre, falta la fuerza bruta: Helsinki y Oslo.
+                </p>
+                <p class="argumento">
+                    La banda planea cada paso durante cinco meses, valoran todos los inconvenientes, todas las posibilidades y cuando llega el día, se encierran durante once días en la Fábrica Nacional de Moneda y Timbre con 67 rehenes. Su objetivo es salir de allí con su propio dinero de curso legal recién impreso y sin registrar, algo que será difícil ya que la policía ha sitiado el lugar. Tendrán que hacer todo el atraco con una condición: nada de relaciones entre los atracadores, algo que no llevan a rajatabla.
+                </p>
+            </article>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020 Urbil Melín and Unai Iriarte</p>
+        </footer>
     </body>
 </html>
